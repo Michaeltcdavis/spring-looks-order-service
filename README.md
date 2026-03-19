@@ -63,7 +63,7 @@ Example request:
 curl -i -X POST http://localhost:8081/api/order \
   -H "Content-Type: application/json" \
   -d '{
-	"skuCode": "white_shoe",
+	"skuCode": "white shoe",
 	"price": 110,
 	"quantity": 1
   }'
